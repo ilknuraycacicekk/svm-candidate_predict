@@ -33,3 +33,7 @@ echo DATABASE_URL=postgresql://{user}:{password}@localhost:5432/{databasename} >
  '''bash
 uvicorn api_predict:app --reload
 
+**KARAR SINIRI GRAFIGI**
+![image](https://github.com/user-attachments/assets/fef913fc-3c52-449c-a915-ce5c38854e96)
+
+
