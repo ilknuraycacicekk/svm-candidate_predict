@@ -26,8 +26,10 @@ Bu proje, yazılım geliştirici pozisyonu için başvuran adayların değerlend
    pip install -r requirements.txt
 
 2. **.env Dosyası Oluşturun**:
+ '''bash
 echo DATABASE_URL=postgresql://{user}:{password}@localhost:5432/{databasename} > .env
 
 3. **FASTAPI Uyulamasını Çalıştırın**:
+ '''bash
 uvicorn api_predict:app --reload
 
