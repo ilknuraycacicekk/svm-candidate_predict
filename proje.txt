@@ -1,0 +1,28 @@
+- ISE ALIMDA ADAY SECIMI : SVM ILE BASVURU DEGERLENDIRME - 
+
+ A Teknolojide İK ekibi olarak yazılım geliştirici pozisyonu için işe alım yapıyoruz :
+
+** Belirlediğimiz Kural Setleri (Etiketleme) **
+1- Teknik Sonuç
+    Tecrübesi 2 yıldan az ve sınav puanı 60’tan düşük olanlar işe alınmıyor.
+    Passed : 1 
+    Failed :0
+2- Destekleyici Skor 
+    Son çalıştığı departman "Yazılım Geliştirme" ise --> +40
+    Top Üç üniversiteden mezunsa ( BOUN, ODTÜ, İTÜ) yada bu üniversitelerden YL varsa --> +20
+    Mezun olduğu bölüm (YL or Lisans) "Computer Engineering" yada "Software Engineering" ise --> +30
+    Lisans GPA yada Yüksek Lisans GPA 3 ve üstü ise --> +5
+    Cinsiyet Kadın ise --> +5 /Pozitif ayrımcılık 
+
+İşe alınacaklar 1. maddeden elenmemiş olmak , 2. maddeden en az 45 alıyor olabilmek
+
+Amacımız Kullanıcıdan tecrübe ve teknik puan alarak tahmin yapmak ve FASTAPI ile servise dönüştürmek.
+
+** .env Dosyası nasıl kurulur (Terminal) **
+echo DATABASE_URL=postgresql://{user}:{password}@localhost:5432/{databasename} > .env
+echo .env > .gitignore
+
+
+
+
+
